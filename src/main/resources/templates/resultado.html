@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Java Stream</title>
+<style>
+		body {background-color: #27408B;}
+		h1   {color: #6495ED;}
+		p    {color: #C6E2FF;}
+	</style>
+</head>
+<body>
+	<h1>Resultado</h1>
+	
+	<div th:each="r : ${resultado}">
+            <p th:text="${r}"></p>
+    </div>
+</body>
+</html>
